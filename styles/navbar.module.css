@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 10em;
+   
+}
+.logo{
+    background: var(--color-accent);
+    color: var(--color-whitish);
+    padding: 4em 4em;
+}
+.logo .logoBusiness{
+    color: var(--color-primary);
+}
+.menu{
+    cursor:pointer;
+}
+.navbar ul{
+    font-size: 2rem;
+    display: none;
+}
